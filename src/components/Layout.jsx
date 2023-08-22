@@ -1,14 +1,15 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, Form } from "react-router-dom";
 import NavBar from "./NavBar";
 import React from "react";
 
 const Layout = () => {
+	const data = {};
 	return (
-		<div>
+		<div className="flex">
 			<NavBar />
-			<main>
+			<Form>
 				<Outlet />
-			</main>
+			</Form>
 		</div>
 	);
 };
