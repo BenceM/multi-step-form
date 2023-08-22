@@ -5,7 +5,6 @@ import {
 	Route,
 	createRoutesFromElements,
 } from "react-router-dom";
-import "./App.css";
 import Info from "./pages/Info";
 import Plan from "./pages/Plan";
 import Extras from "./pages/Extras";

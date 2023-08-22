@@ -3,7 +3,7 @@ import React from "react";
 const Info = () => {
 	return (
 		<>
-			<h1>Personal info</h1>
+			<h1 className="text-3xl font-bold underline">Personal info</h1>
 			<p>Please provide your name, email address, and phone number.</p>
 			<label htmlFor="">Name:</label>
 			<input type="text" />

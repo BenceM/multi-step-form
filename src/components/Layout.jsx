@@ -5,7 +5,7 @@ import React from "react";
 const Layout = () => {
 	const data = {};
 	return (
-		<div className="flex">
+		<div className="flex flex-row">
 			<NavBar />
 			<Form>
 				<Outlet />
