@@ -11,6 +11,10 @@ import Extras from "./pages/Extras";
 import Summary from "./pages/Summary";
 import Layout from "./components/Layout";
 
+// figure out the best way to use state/ pass info + needs summary at the end (redux store maybe)
+//navigation navbar + buttons
+//css
+
 const router = createBrowserRouter(
 	createRoutesFromElements(
 		<Route path="/" element={<Layout />}>
